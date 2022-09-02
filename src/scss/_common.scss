@@ -1,0 +1,30 @@
+html,body p{
+    background-color: $background;
+    font-family:'Roboto', sans-serif;
+    font-size:16px;
+    line-height: 1.2;
+    color: $base-color;
+    
+}
+h1{
+    font-size: 45px;
+    font-weight: 500;
+    letter-spacing: 6.8px;
+    color: $bold-color;
+}
+h2{
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 2.5px;
+    color: $bold-color;
+}
+span{
+    color:#f8615a ;
+}
+
+.odd{
+    display: flex;
+    align-items: end;
+    flex-direction:column;
+    text-align: end;
+}
